@@ -1,0 +1,124 @@
+{
+  "order_related": [
+    {
+      "question": "How can I track my order?",
+      "answer": "You can track your order by logging into your account and visiting 'Order History' or by using the tracking link sent to your email. You can also track without an account using your order number and email address.",
+      "keywords": ["track", "tracking", "where is my order", "order status", "delivery status"]
+    },
+    {
+      "question": "Can I change my shipping address after ordering?",
+      "answer": "You can change your shipping address within 1 hour of placing your order. After that, please contact us immediately at support@techshop.com with your order number.",
+      "keywords": ["change address", "shipping address", "wrong address", "update address"]
+    },
+    {
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping takes 5-7 business days, express takes 2-3 business days, and overnight shipping delivers the next business day. Delivery times may vary during holidays.",
+      "keywords": ["shipping time", "delivery time", "how long", "when will it arrive"]
+    },
+    {
+      "question": "Do you ship internationally?",
+      "answer": "Yes, we ship to over 50 countries. International shipping typically takes 7-14 business days and additional customs fees may apply.",
+      "keywords": ["international", "overseas", "another country", "global shipping"]
+    }
+  ],
+  "return_refund": [
+    {
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for most items. Products must be unused, in original packaging with all accessories. Some items like software and personalized products are final sale.",
+      "keywords": ["return policy", "return item", "send back", "30 days"]
+    },
+    {
+      "question": "How do I return an item?",
+      "answer": "Initiate a return through your account dashboard, print the return label, pack the item securely, and drop it at any authorized shipping location. Refunds are processed within 5-10 business days after we receive the item.",
+      "keywords": ["how to return", "return process", "initiate return", "return label"]
+    },
+    {
+      "question": "When will I get my refund?",
+      "answer": "Refunds are processed within 5-10 business days after we receive your returned item. The time it takes for the refund to appear in your account depends on your payment method and bank.",
+      "keywords": ["refund time", "when refund", "money back", "refund processed"]
+    },
+    {
+      "question": "Do you offer exchanges?",
+      "answer": "Yes, we offer exchanges for different sizes, colors, or models. Please initiate an exchange through your account or contact our support team for assistance.",
+      "keywords": ["exchange", "swap", "different size", "different color"]
+    }
+  ],
+  "technical_support": [
+    {
+      "question": "My device won't turn on, what should I do?",
+      "answer": "First, ensure the device is properly charged or connected to power. Try a different power outlet and cable. If the issue persists, perform a hard reset by holding the power button for 15 seconds. Contact us if these steps don't work.",
+      "keywords": ["won't turn on", "not starting", "power issue", "dead device"]
+    },
+    {
+      "question": "How do I update my device software?",
+      "answer": "Go to Settings > System > Software Update to check for updates. Ensure your device is connected to Wi-Fi and has at least 50% battery before updating. Never turn off the device during an update.",
+      "keywords": ["software update", "update device", "firmware", "system update"]
+    },
+    {
+      "question": "My device is running slow, how can I fix it?",
+      "answer": "Try these steps: 1) Restart your device 2) Clear cache and temporary files 3) Close unused applications 4) Check available storage space 5) Update to latest software version.",
+      "keywords": ["slow", "lagging", "performance", "freezing"]
+    },
+    {
+      "question": "How do I connect to Wi-Fi?",
+      "answer": "Go to Settings > Network > Wi-Fi, select your network, and enter the password. If connection fails, restart your router, ensure you're within range, and check if the network requires special authentication.",
+      "keywords": ["wifi", "wireless", "connect internet", "network connection"]
+    }
+  ],
+  "billing_payment": [
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, Google Pay, and shop Pay. We also offer financing options through Affirm for qualifying orders.",
+      "keywords": ["payment methods", "credit cards", "paypal", "how to pay"]
+    },
+    {
+      "question": "Is my payment information secure?",
+      "answer": "Yes, we use industry-standard SSL encryption and never store your complete payment details. All transactions are processed through PCI-compliant payment gateways.",
+      "keywords": ["security", "safe", "payment security", "encryption"]
+    },
+    {
+      "question": "Why was my payment declined?",
+      "answer": "Common reasons include: insufficient funds, incorrect card details, billing address mismatch, suspected fraud, or card expiration. Contact your bank or try a different payment method.",
+      "keywords": ["payment declined", "card declined", "transaction failed", "payment error"]
+    },
+    {
+      "question": "Can I pay with multiple payment methods?",
+      "answer": "Currently, we only support one payment method per order. However, you can use gift cards in combination with another payment method during checkout.",
+      "keywords": ["multiple payments", "split payment", "two cards", "combined payment"]
+    }
+  ],
+  "account_management": [
+    {
+      "question": "How do I reset my password?",
+      "answer": "Click 'Forgot Password' on the login page, enter your email, and follow the instructions in the reset email. The link expires in 2 hours for security.",
+      "keywords": ["reset password", "forgot password", "change password", "can't login"]
+    },
+    {
+      "question": "How do I update my account information?",
+      "answer": "Log into your account, go to 'Account Settings' where you can update your personal information, email preferences, and notification settings.",
+      "keywords": ["update account", "change email", "account settings", "profile update"]
+    },
+    {
+      "question": "How do I delete my account?",
+      "answer": "Contact our support team at support@techshop.com to request account deletion. Please note this action is permanent and cannot be undone.",
+      "keywords": ["delete account", "close account", "remove account", "account deletion"]
+    }
+  ],
+  "product_questions": [
+    {
+      "question": "What's the difference between TechBook Pro models?",
+      "answer": "TB2023 has 8GB RAM/256GB SSD, TB2024 has 16GB RAM/512GB SSD, and TB2024 Max has 32GB RAM/1TB SSD with enhanced graphics. All feature the latest processors and retina displays.",
+      "keywords": ["model differences", "which model", "compare models", "techbook pro"]
+    },
+    {
+      "question": "Do your products come with warranty?",
+      "answer": "Yes, laptops come with 2-year warranty, smartphones and accessories come with 1-year warranty. Extended warranty options are available at checkout.",
+      "keywords": ["warranty", "guarantee", "coverage", "manufacturer warranty"]
+    },
+    {
+      "question": "Are your products compatible with [specific device]?",
+      "answer": "Most of our products are compatible with major operating systems and devices. Check the product specifications page for detailed compatibility information or contact our support team.",
+      "keywords": ["compatible", "works with", "compatibility", "device support"]
+    }
+  ]
+}

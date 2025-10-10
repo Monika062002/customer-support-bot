@@ -1,0 +1,63 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: 95vh;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .nav-links {
+        display: flex;
+        overflow-x: auto;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        white-space: nowrap;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .user-profile {
+        display: none;
+    }
+
+    .message {
+        max-width: 85%;
+    }
+
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        height: 97vh;
+    }
+
+    .chat-header {
+        padding: 15px;
+    }
+
+    .input-area {
+        padding: 15px;
+    }
+
+    .quick-replies {
+        gap: 5px;
+    }
+
+    .quick-reply {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

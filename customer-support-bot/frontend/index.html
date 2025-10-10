@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Customer Support Bot</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/chat.css">
+    <link rel="stylesheet" href="css/components/sidebar.css">
+    <link rel="stylesheet" href="css/components/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <h1>SupportBot AI</h1>
+            </div>
+            
+            <ul class="nav-links">
+                <li class="active" data-tab="chat">
+                    <i class="fas fa-comments"></i>
+                    <span>Chat Support</span>
+                </li>
+                <li data-tab="dashboard">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Analytics Dashboard</span>
+                </li>
+                <li data-tab="knowledge">
+                    <i class="fas fa-book"></i>
+                    <span>Knowledge Base</span>
+                </li>
+                <li data-tab="settings">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </li>
+            </ul>
+            
+            <div class="user-profile">
+                <div class="user-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="user-info">
+                    <h3>Admin User</h3>
+                    <p>Support Manager</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="chat-info">
+                    <h2>Customer Support</h2>
+                    <p>AI-powered assistant ready to help</p>
+                </div>
+                <div class="chat-actions">
+                    <button title="Clear Chat"><i class="fas fa-trash"></i></button>
+                    <button title="Download Chat"><i class="fas fa-download"></i></button>
+                    <button title="Escalate to Human"><i class="fas fa-user-friends"></i></button>
+                </div>
+            </div>
+            
+            <!-- Chat Area -->
+            <div class="chat-area" id="chatArea">
+                <!-- Messages will be inserted here by JavaScript -->
+            </div>
+            
+            <!-- Input Area -->
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Type your message here...">
+                <button id="sendButton">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            
+            <!-- Dashboard -->
+            <div class="dashboard" id="dashboard">
+                <h2>Analytics Dashboard</h2>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>1,247</h3>
+                            <p>Total Conversations</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>89%</h3>
+                            <p>AI Resolution Rate</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>137</h3>
+                            <p>Human Escalations</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>4.7/5</h3>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h3>Query Types Distribution</h3>
+                    <canvas id="queryChart" width="400" height="200"></canvas>
+                </div>
+                
+                <div class="recent-chats">
+                    <h3>Recent Support Conversations</h3>
+                    <ul class="chat-list">
+                        <li class="chat-item">
+                            <div class="chat-user">
+                                <div class="chat-avatar">JD</div>
+                                <div class="chat-details">
+                                    <h4>John Doe</h4>
+                                    <p>Where is my order #ORD-7842?</p>
+                                </div>
+                            </div>
+                            <div class="chat-status status-resolved">Resolved</div>
+                        </li>
+                        <li class="chat-item">
+                            <div class="chat-user">
+                                <div class="chat-avatar">SJ</div>
+                                <div class="chat-details">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>I need to return a damaged product</p>
+                                </div>
+                            </div>
+                            <div class="chat-status status-pending">Pending</div>
+                        </li>
+                        <li class="chat-item">
+                            <div class="chat-user">
+                                <div class="chat-avatar">MR</div>
+                                <div class="chat-details">
+                                    <h4>Mike Roberts</h4>
+                                    <p>App keeps crashing on startup</p>
+                                </div>
+                            </div>
+                            <div class="chat-status status-escalated">Escalated</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils/constants.js"></script>
+    <script src="js/utils/helpers.js"></script>
+    <script src="js/nlp.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

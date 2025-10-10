@@ -1,0 +1,79 @@
+{
+  "company_info": {
+    "name": "TechShop Inc.",
+    "support_hours": "24/7",
+    "contact_email": "support@techshop.com",
+    "phone": "1-800-TECHSHOP",
+    "website": "www.techshop.com"
+  },
+  "products": {
+    "laptops": [
+      {
+        "name": "TechBook Pro",
+        "models": ["TB2023", "TB2024", "TB2024 Max"],
+        "warranty": "2 years",
+        "return_policy": "30 days"
+      },
+      {
+        "name": "GamerX Laptop",
+        "models": ["GX15", "GX17", "GX17 Pro"],
+        "warranty": "1 year",
+        "return_policy": "14 days"
+      }
+    ],
+    "smartphones": [
+      {
+        "name": "SmartPhone X",
+        "models": ["SPX12", "SPX13", "SPX13 Pro"],
+        "warranty": "1 year",
+        "return_policy": "30 days"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Wireless Earbuds",
+        "models": ["WE100", "WE200", "WE300 Pro"],
+        "warranty": "1 year",
+        "return_policy": "30 days"
+      }
+    ]
+  },
+  "shipping_info": {
+    "standard": {
+      "time": "5-7 business days",
+      "cost": "$4.99",
+      "free_threshold": "$50+"
+    },
+    "express": {
+      "time": "2-3 business days",
+      "cost": "$12.99",
+      "free_threshold": "$100+"
+    },
+    "overnight": {
+      "time": "1 business day",
+      "cost": "$24.99",
+      "free_threshold": "Not available"
+    },
+    "carriers": ["UPS", "FedEx", "USPS", "DHL"]
+  },
+  "return_policy": {
+    "timeframe": "30 days from delivery",
+    "condition": "Unused, in original packaging",
+    "process": "Initiate return online, print label, ship back",
+    "refund_time": "5-10 business days after receipt",
+    "exceptions": ["Software", "Digital products", "Personalized items"]
+  },
+  "technical_support": {
+    "common_issues": {
+      "device_not_turning_on": "Check power connection, try different outlet, reset power adapter",
+      "slow_performance": "Clear cache, close unused apps, check storage space",
+      "connectivity_issues": "Restart router, check network settings, update drivers",
+      "battery_drain": "Check background apps, reduce screen brightness, update OS"
+    },
+    "troubleshooting_steps": {
+      "first": "Restart the device",
+      "second": "Check for software updates",
+      "third": "Reset to factory settings (backup data first)"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 300px;
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-links li {
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links li.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-links i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.user-profile {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.user-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.user-info p {
+    font-size: 12px;
+    opacity: 0.8;
+}
